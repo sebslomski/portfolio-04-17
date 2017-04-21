@@ -1,8 +1,8 @@
 {
-  "name": "-y",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "pages/index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.1",
     "next": "^2.1.1",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.5.2",

@@ -4,6 +4,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _taggedTemplateLiteral2 = require("babel-runtime/helpers/taggedTemplateLiteral");
+
+var _taggedTemplateLiteral3 = _interopRequireDefault(_taggedTemplateLiteral2);
+
 var _getPrototypeOf = require("babel-runtime/core-js/object/get-prototype-of");
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
@@ -28,6 +32,14 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _styledComponents = require("styled-components");
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _page = require("../components/page");
+
+var _page2 = _interopRequireDefault(_page);
+
 var _Start = require("../components/Start");
 
 var _Start2 = _interopRequireDefault(_Start);
@@ -48,6 +60,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "/Users/mas/Documents/websites/portfolio-04-17/pages/index.js?entry";
 
+var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n\n"], ["\n\n"]);
 
 var Section = function (_React$Component) {
   (0, _inherits3.default)(Section, _React$Component);
@@ -61,30 +74,30 @@ var Section = function (_React$Component) {
   (0, _createClass3.default)(Section, [{
     key: "render",
     value: function render() {
-      return _react2.default.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
-      }, _react2.default.createElement(_Start2.default, {
+      return _react2.default.createElement(_page2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         }
-      }), _react2.default.createElement(_About2.default, {
+      }, _react2.default.createElement(_Start2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }), _react2.default.createElement(_Projects2.default, {
+      }), _react2.default.createElement(_About2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         }
-      }), _react2.default.createElement(_Contact2.default, {
+      }), _react2.default.createElement(_Projects2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
+        }
+      }), _react2.default.createElement(_Contact2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
         }
       }));
     }
@@ -94,3 +107,6 @@ var Section = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Section;
+
+
+var Base = _styledComponents2.default.div(_templateObject);
