@@ -22,9 +22,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "/Users/mas/Documents/websites/portfolio-04-17/components/Start.js";
 
-var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  max-width: 800px;\n  margin: 0 auto;\n  padding: 16vh 0 31vh;\n  display: flex;\n  flex-direction: column;\n"], ["\n  max-width: 800px;\n  margin: 0 auto;\n  padding: 16vh 0 31vh;\n  display: flex;\n  flex-direction: column;\n"]),
-    _templateObject2 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 3.75rem;\n  font-family: Lora,Times New Roman,serif;\n  margin: 1rem 0 1.5rem;\n"], ["\n  font-size: 3.75rem;\n  font-family: Lora,Times New Roman,serif;\n  margin: 1rem 0 1.5rem;\n"]),
-    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 1.875rem;\n  font-weight: 300;\n  margin:0 0 2rem;\n"], ["\n  font-size: 1.875rem;\n  font-weight: 300;\n  margin:0 0 2rem;\n"]),
+var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  max-width: 800px;\n  margin: 0 auto;\n  padding: 16vh 0 32vh;\n  display: flex;\n  flex-direction: column;\n"], ["\n  max-width: 800px;\n  margin: 0 auto;\n  padding: 16vh 0 32vh;\n  display: flex;\n  flex-direction: column;\n"]),
+    _templateObject2 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 3.75rem;\n  font-family: Lora,Times New Roman,serif;\n  margin: 1rem 0 1.5rem;\n\n    @media(max-width: 880px) {\n      font-size: 2rem;\n  }\n"], ["\n  font-size: 3.75rem;\n  font-family: Lora,Times New Roman,serif;\n  margin: 1rem 0 1.5rem;\n\n    @media(max-width: 880px) {\n      font-size: 2rem;\n  }\n"]),
+    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 1.875rem;\n  font-weight: 300;\n  margin:0 0 2rem;\n\n      @media(max-width: 880px) {\n      font-size: 1.2rem;\n  }\n"], ["\n  font-size: 1.875rem;\n  font-weight: 300;\n  margin:0 0 2rem;\n\n      @media(max-width: 880px) {\n      font-size: 1.2rem;\n  }\n"]),
     _templateObject4 = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n"], ["\n  display: flex;\n"]),
     _templateObject5 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 1.3rem;\n  cursor: pointer;\n"], ["\n  font-size: 1.3rem;\n  cursor: pointer;\n"]),
     _templateObject6 = (0, _taggedTemplateLiteral3.default)(["\n  color: white;\n  background-color: #FF5252;\n  padding: 0.5rem 1rem;\n  border-radius: 4px;\n  cursor: pointer;\n  font-size: 1.3rem;\n  margin-right: 2rem;\n"], ["\n  color: white;\n  background-color: #FF5252;\n  padding: 0.5rem 1rem;\n  border-radius: 4px;\n  cursor: pointer;\n  font-size: 1.3rem;\n  margin-right: 2rem;\n"]);
@@ -96,7 +96,7 @@ exports.default = function () {
       fileName: _jsxFileName,
       lineNumber: 35
     }
-  }, "I'm a Fullstack Developer who focuses writing clean, elegant and efficient Code. Working with HTML, CSS, JavaScript, ReactJS and Node.js"), _react2.default.createElement(Further, {
+  }, "I'm a Frontend Developer who focuses writing clean, elegant and efficient Code. Working with HTML, CSS, JavaScript, React and Node.js"), _react2.default.createElement(Further, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38

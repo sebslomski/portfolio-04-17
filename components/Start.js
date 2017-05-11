@@ -33,7 +33,7 @@ export default () => (
       </svg>
       <Title>Michael Simmelbauer</Title>
       <Subtitle>
-        I'm a Fullstack Developer who focuses writing clean, elegant and efficient Code. Working with HTML, CSS, JavaScript, ReactJS and Node.js
+        I'm a Frontend Developer who focuses writing clean, elegant and efficient Code. Working with HTML, CSS, JavaScript, React and Node.js
       </Subtitle>
       <Further>
         <Link to="projects" spy={true} smooth={true} duration={500} delay={100}>
@@ -54,7 +54,7 @@ export default () => (
 const Wrapper = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  padding: 16vh 0 31vh;
+  padding: 16vh 0 32vh;
   display: flex;
   flex-direction: column;
 `;
@@ -63,12 +63,20 @@ const Title = styled.h1`
   font-size: 3.75rem;
   font-family: Lora,Times New Roman,serif;
   margin: 1rem 0 1.5rem;
+
+    @media(max-width: 880px) {
+      font-size: 2rem;
+  }
 `;
 
 const Subtitle = styled.h3`
   font-size: 1.875rem;
   font-weight: 300;
   margin:0 0 2rem;
+
+      @media(max-width: 880px) {
+      font-size: 1.2rem;
+  }
 `;
 
 const Further = styled.div`

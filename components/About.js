@@ -5,7 +5,7 @@ export default () => (
   <Element id="about">
     <Wrapper>
       <Text>
-        I'm Michael Simmelbauer, a Fullstack Developer living in Munich, Germany. With passion for development. In 2016 I decided to learn Development, since then I have been developing Web Apps.
+        I'm Michael Simmelbauer, a Frontend Developer living in Munich, Germany. With passion for development. In 2016 I decided to learn Development, since then I have been developing Web Apps.
         <br />
         <br />
         {" "}
@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
 `;
 
 const Title = styled.h2`
@@ -58,6 +58,9 @@ const Title = styled.h2`
 
 const Text = styled.p`
   font-size: 1.5rem;
+  @media(max-width: 880px) {
+      font-size: 1.2rem;
+  }
 `;
 
 const StackTitle = styled.h2`
@@ -70,9 +73,14 @@ const StackTitle = styled.h2`
 const Stack = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const Stackpic = styled.i`
   font-size: 6rem;
-  padding: 1rem;
+  padding: 1rem 3rem;
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+  }
 `;

@@ -52,13 +52,13 @@ var _jsxFileName = "/Users/mas/Documents/websites/portfolio-04-17/components/Con
 
 var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n    margin: 3rem auto;\n"], ["\n    margin: 3rem auto;\n"]),
     _templateObject2 = (0, _taggedTemplateLiteral3.default)(["\n    font-size: 3.25rem;\n    font-family: Lora,Times New Roman,serif;\n    font-weight: 400;\n    margin: 1rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n"], ["\n    font-size: 3.25rem;\n    font-family: Lora,Times New Roman,serif;\n    font-weight: 400;\n    margin: 1rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n"]),
-    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n    margin: 0 auto;\n    height: 600px;\n"], ["\n    margin: 0 auto;\n    height: 600px;\n"]),
-    _templateObject4 = (0, _taggedTemplateLiteral3.default)(["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n"], ["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n"]),
+    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n    margin: 0 auto;\n"], ["\n    margin: 0 auto;\n"]),
+    _templateObject4 = (0, _taggedTemplateLiteral3.default)(["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 3rem;\n"], ["\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 3rem;\n"]),
     _templateObject5 = (0, _taggedTemplateLiteral3.default)(["\n    margin: 1rem;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n"], ["\n    margin: 1rem;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n"]),
     _templateObject6 = (0, _taggedTemplateLiteral3.default)(["\n    font-size: 1.75rem;\n    padding: 0rem 2rem 0.5rem;\n    width: 6rem;\n    margin-right: 4rem;\n"], ["\n    font-size: 1.75rem;\n    padding: 0rem 2rem 0.5rem;\n    width: 6rem;\n    margin-right: 4rem;\n"]),
-    _templateObject7 = (0, _taggedTemplateLiteral3.default)(["\n    border-radius: 5px;\n    background: transparent;\n    border: 1px solid #ccc;\n    font-size: 1.75rem;\n    font-family: inherit;\n    width: 25rem;\n    height: ", ";\n"], ["\n    border-radius: 5px;\n    background: transparent;\n    border: 1px solid #ccc;\n    font-size: 1.75rem;\n    font-family: inherit;\n    width: 25rem;\n    height: ", ";\n"]),
+    _templateObject7 = (0, _taggedTemplateLiteral3.default)(["\n    border-radius: 5px;\n    background: transparent;\n    border: 1px solid #ccc;\n    font-size: 1.75rem;\n    font-family: inherit;\n    width: 25rem;\n    height: ", ";\n    @media(max-width: 880px) {\n      width:  100%;\n    }\n"], ["\n    border-radius: 5px;\n    background: transparent;\n    border: 1px solid #ccc;\n    font-size: 1.75rem;\n    font-family: inherit;\n    width: 25rem;\n    height: ", ";\n    @media(max-width: 880px) {\n      width:  100%;\n    }\n"]),
     _templateObject8 = (0, _taggedTemplateLiteral3.default)(["\n  color: white;\n  background-color: #FF5252;\n  padding: 0.5rem 2rem;\n  border-radius: 5px;\n  cursor: pointer;\n  font-size: 1.3rem;\n  margin-top: 1rem;\n  border: none;\n"], ["\n  color: white;\n  background-color: #FF5252;\n  padding: 0.5rem 2rem;\n  border-radius: 5px;\n  cursor: pointer;\n  font-size: 1.3rem;\n  margin-top: 1rem;\n  border: none;\n"]),
-    _templateObject9 = (0, _taggedTemplateLiteral3.default)(["\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n  max-height: 3.5rem;\n"], ["\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n  max-height: 3.5rem;\n"]);
+    _templateObject9 = (0, _taggedTemplateLiteral3.default)(["\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n  max-height: 3rem;\n\n  @media(max-width: 880px) {\n      height: 2rem;\n    }\n"], ["\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n  max-height: 3rem;\n\n  @media(max-width: 880px) {\n      height: 2rem;\n    }\n"]);
 
 var _class = function (_React$Component) {
   (0, _inherits3.default)(_class, _React$Component);
@@ -83,12 +83,13 @@ var _class = function (_React$Component) {
       _this.setState((0, _defineProperty3.default)({}, e.target.name, e.target.value));
     }, _this.handleSubmit = function (e) {
       e.preventDefault();
-      console.log(_this.state);
-      _axios2.default.post("https://simmco-email.now.sh", _this.state).then(function (res) {
-        return console.log(res);
-      }).catch(function (err) {
-        return console.log(err);
-      });
+      if (_this.state.message !== "") {
+        _axios2.default.post("https://simmco-email.now.sh", _this.state).then(function (res) {
+          return console.log(res);
+        }).catch(function (err) {
+          return console.log(err);
+        });
+      }
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
@@ -97,36 +98,36 @@ var _class = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(_reactScroll.Element, { id: "contact", __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, _react2.default.createElement(Wrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, _react2.default.createElement(Title, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, "Get in touch"), _react2.default.createElement(EmailWrap, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         }
       }, _react2.default.createElement(Form, { onSubmit: this.handleSubmit, __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         }
       }, _react2.default.createElement(InputGroup, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement(InputTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         }
       }, "name"), _react2.default.createElement(InputField, {
         name: "name",
@@ -134,17 +135,17 @@ var _class = function (_React$Component) {
         value: this.state.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         }
       })), _react2.default.createElement(InputGroup, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         }
       }, _react2.default.createElement(InputTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         }
       }, "email"), _react2.default.createElement(InputField, {
         name: "email",
@@ -153,17 +154,17 @@ var _class = function (_React$Component) {
         value: this.state.email,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         }
       })), _react2.default.createElement(InputGroup, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 51
         }
       }, _react2.default.createElement(InputTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         }
       }, "subject"), _react2.default.createElement(InputField, {
         name: "subject",
@@ -171,17 +172,17 @@ var _class = function (_React$Component) {
         value: this.state.subject,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         }
       })), _react2.default.createElement(InputGroup, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         }
       }, _react2.default.createElement(InputTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         }
       }, "message"), _react2.default.createElement(InputField, {
         primary: true,
@@ -191,13 +192,13 @@ var _class = function (_React$Component) {
         value: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         }
       })), _react2.default.createElement(Button, { type: "submit", __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 69
         }
-      }, "Send"))), _react2.default.createElement(Icons, {
+      }, "Send")), _react2.default.createElement(Icons, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
@@ -214,7 +215,7 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 74
         }
-      }))));
+      })))));
     }
   }]);
 

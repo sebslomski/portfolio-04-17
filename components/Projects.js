@@ -13,7 +13,7 @@ export default () => (
 
         <ProjectLeft>
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink href="http://kaulquappe.now.sh" target="_blank">
               Die Kaulquappe
             </ProjectTitleLink>
           </ProjectTitle>
@@ -29,7 +29,8 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/kaulquappe.jpg" />
+
         </ProjectRight>
 
       </ProjectWrap>
@@ -39,12 +40,15 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink
+              href="https://lit-brook-10809.herokuapp.com/"
+              target="_blank"
+            >
               Trading Book Store
             </ProjectTitleLink>
           </ProjectTitle>
           <ProjectDesc>
-            You can Sign up as a User and trade with other people books. I can accept and decline Requests.
+            You can Sign up as a User and trade with other people books. You can add your books with the Google Books API. You can accept and decline Requests.
           </ProjectDesc>
 
           <ProjectStack>
@@ -56,7 +60,14 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/book-trading.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/trading-book-store/tree/master/server" target="_blank">Backend</GithubLink>
+              <GithubLink href="https://github.com/simmco/trading-book-store/tree/master/react-ui" target="_blank">Frontend</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -66,7 +77,10 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink
+              href="https://simmco.github.io/pinterest-clone/"
+              target="_blank"
+            >
               Pinterest Clone
             </ProjectTitleLink>
           </ProjectTitle>
@@ -83,7 +97,14 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/pinterest.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/api-pinterest-clone" target="_blank">Backend</GithubLink>
+              <GithubLink href="https://github.com/simmco/pinterest-clone" target="_blank">Frontend</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -93,8 +114,11 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
-              Nightlife Coordination App
+            <ProjectTitleLink
+              href="https://simmco.github.io/nightlife/"
+              target="_blank"
+            >
+              Nightlife Coordination
             </ProjectTitleLink>
           </ProjectTitle>
           <ProjectDesc>
@@ -109,7 +133,14 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/nightlife.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/api-nightlife" target="_blank">Backend</GithubLink>
+              <GithubLink href="https://github.com/simmco/pinterest-clone" target="_blank">Frontend</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -119,7 +150,10 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink
+              href="https://simmco-voting-app.herokuapp.com/"
+              target="_blank"
+            >
               Voting App
             </ProjectTitleLink>
           </ProjectTitle>
@@ -137,7 +171,13 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/vote.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/voting_app" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -147,7 +187,10 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink
+              href="https://chat-redux.firebaseapp.com/"
+              target="_blank"
+            >
               Firebase Chat App
             </ProjectTitleLink>
           </ProjectTitle>
@@ -157,13 +200,19 @@ export default () => (
 
           <ProjectStack>
             <ProjectStackName>React</ProjectStackName>
-            <ProjectStackName>Redux</ProjectStackName>    
+            <ProjectStackName>Redux</ProjectStackName>
             <ProjectStackName>Firebase</ProjectStackName>
           </ProjectStack>
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/firebase-chat.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/firebase-chat" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -173,7 +222,10 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink
+              href="https://simmco.github.io/localWeather/"
+              target="_blank"
+            >
               Local Weather
             </ProjectTitleLink>
           </ProjectTitle>
@@ -182,14 +234,21 @@ export default () => (
           </ProjectDesc>
 
           <ProjectStack>
-            <ProjectStackName>React</ProjectStackName>
-            <ProjectStackName>Node</ProjectStackName>
-            <ProjectStackName>UI</ProjectStackName>
+            <ProjectStackName>HTML</ProjectStackName>
+            <ProjectStackName>CSS</ProjectStackName>
+            <ProjectStackName>JS</ProjectStackName>
+            <ProjectStackName>Bootstrap</ProjectStackName>
           </ProjectStack>
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/weather.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/localWeather" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -199,23 +258,28 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
-              Travel Site
+            <ProjectTitleLink href="https://cineflix.now.sh" target="_blank">
+              Cineflix
             </ProjectTitleLink>
           </ProjectTitle>
           <ProjectDesc>
-            Website für die Schwimmschule Die Kaulquappe. Mit Buchungssytem und automatischer Anmeldung und Schließung von Kursen.
+            A Netflix clone for movies. You can see movies in theatre, best last year, highest rated, most popular and most popular last year. Build with <MovieDBLink href="https://developers.themoviedb.org/3/getting-started" target="_blank">THEMOVIEDB API</MovieDBLink>.
           </ProjectDesc>
 
           <ProjectStack>
             <ProjectStackName>React</ProjectStackName>
-            <ProjectStackName>Node</ProjectStackName>
             <ProjectStackName>UI</ProjectStackName>
           </ProjectStack>
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/cineflix.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/cineflix" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -225,23 +289,27 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
+            <ProjectTitleLink href="https://simmco.github.io/recipe-book" target="_blank">
               Recipe Book
             </ProjectTitleLink>
           </ProjectTitle>
           <ProjectDesc>
-            Website für die Schwimmschule Die Kaulquappe. Mit Buchungssytem und automatischer Anmeldung und Schließung von Kursen.
+            You can save your recipes, add and remove ingredients. Everthing is saved in browsers localStorage.
           </ProjectDesc>
 
           <ProjectStack>
             <ProjectStackName>React</ProjectStackName>
-            <ProjectStackName>Node</ProjectStackName>
-            <ProjectStackName>UI</ProjectStackName>
           </ProjectStack>
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/recipe-book.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/recipe-book" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -251,12 +319,12 @@ export default () => (
         <ProjectLeft>
 
           <ProjectTitle>
-            <ProjectTitleLink href="http://diekaulquappe.de" target="_blank">
-              Pomodoro Clock
+            <ProjectTitleLink href="https://beauty-image-search.herokuapp.com/" target="_blank">
+              Image Search Abstraction
             </ProjectTitleLink>
           </ProjectTitle>
           <ProjectDesc>
-            Website für die Schwimmschule Die Kaulquappe. Mit Buchungssytem und automatischer Anmeldung und Schließung von Kursen.
+            A microservice who builds a API for a image search with picture, description, thumbnail and context.
           </ProjectDesc>
 
           <ProjectStack>
@@ -267,7 +335,13 @@ export default () => (
         </ProjectLeft>
 
         <ProjectRight>
-          <ProjectPicture src="/static/kaulquappe.png" />
+          <ProjectPicture src="/static/image-search.jpg" />
+          <ProjectGithub>
+            <GithubImage src="static/github.svg" />
+            <GithubDesc>
+              <GithubLink href="https://github.com/simmco/image-search-abstraction-layer" target="_blank">Repository</GithubLink>
+            </GithubDesc>
+          </ProjectGithub>
         </ProjectRight>
 
       </ProjectWrap>
@@ -307,10 +381,12 @@ const ProjectsWrapper = styled.div`
 `;
 
 const ProjectWrap = styled.div`
-    width: 600px;
+    max-width: 600px;
+    min-height: 250px;
     padding: 2rem 1.875rem;
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 `;
 
 const ProjectLeft = styled.div`
@@ -319,9 +395,15 @@ const ProjectLeft = styled.div`
     flex-direction: column;
     justify-content: space-between;
     padding: 0 0.3rem;
+
+    @media(max-width: 880px) {
+      min-width: 70%;
+    }
 `;
 
 const ProjectRight = styled.div`
+    display:flex;
+    flex-direction: column;
     flex: 2;
     padding: 0 0.2rem;
 `;
@@ -331,13 +413,49 @@ const ProjectPicture = styled.img`
     min-width: 160px;
     flex-basis: auto;
     border: 1px solid #ccc;
+    transition: all .2s ease-out;
+    cursor: pointer;
+
+    &:hover {
+          border: 1px solid #7f7f7f;
+    }
 `;
+
+const ProjectGithub = styled.div`
+    margin-top: auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+const GithubImage = styled.img`
+  max-height: 35px;
+  padding-right: 0.7rem;
+`;
+
+const GithubDesc = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const GithubLink = styled.a`
+  text-decoration: none;
+  &:hover {
+  text-decoration: underline;
+  }
+`
 
 const ProjectTitle = styled.h4`
     font-size: 1.75rem;
     font-family: Lora,Times New Roman,serif;
     font-weight: 400;
     margin: 0;
+
+    @media(max-width: 880px) {
+      padding-bottom: 1rem;
+      text-align: center;
+    }
 `;
 
 const ProjectTitleLink = styled.a`
@@ -345,15 +463,31 @@ const ProjectTitleLink = styled.a`
     color: currentColor;
     text-decoration: none;
     padding-bottom: 0.1rem;
+    transition: all .2s ease-out;
+
+    &:hover {
+      border-color: #7f7f7f;
+    }
 `;
 
 const ProjectDesc = styled.p`
     font-weight: 300;
+    @media(max-width: 880px) {
+      padding-bottom: 1rem;
+      text-align: center;
+    }
 `;
 
 const ProjectStack = styled.div`
+
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 0.3rem;
+
+    @media(max-width: 880px) {
+      padding-bottom: 1rem;
+      justify-content: center;
+    }
 `;
 
 const ProjectStackName = styled.p`
@@ -361,5 +495,9 @@ const ProjectStackName = styled.p`
     border-radius: 4px;
     padding: 0.2rem 0.5rem;
     color: #999;
-    margin: 0 0.5rem 0 0;
+    margin: 0 0.5rem 0.5rem 0;
 `;
+
+const MovieDBLink = styled.a`
+  text-decoration: none;
+`

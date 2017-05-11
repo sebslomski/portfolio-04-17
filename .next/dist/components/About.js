@@ -22,12 +22,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "/Users/mas/Documents/websites/portfolio-04-17/components/About.js";
 
-var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  max-width: 800px;\n  display:flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 0 auto;\n  padding-bottom: 10rem;\n"], ["\n  max-width: 800px;\n  display:flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 0 auto;\n  padding-bottom: 10rem;\n"]),
+var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  max-width: 800px;\n  display:flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 0 auto;\n  padding-bottom: 4rem;\n"], ["\n  max-width: 800px;\n  display:flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 0 auto;\n  padding-bottom: 4rem;\n"]),
     _templateObject2 = (0, _taggedTemplateLiteral3.default)(["\n    font-size: 3.25rem;\n    font-family: Lora,Times New Roman,serif;\n    font-weight: 400;\n    margin: 0 0 1.5rem;\n"], ["\n    font-size: 3.25rem;\n    font-family: Lora,Times New Roman,serif;\n    font-weight: 400;\n    margin: 0 0 1.5rem;\n"]),
-    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 1.5rem;\n"], ["\n  font-size: 1.5rem;\n"]),
+    _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 1.5rem;\n  @media(max-width: 880px) {\n      font-size: 1.2rem;\n  }\n"], ["\n  font-size: 1.5rem;\n  @media(max-width: 880px) {\n      font-size: 1.2rem;\n  }\n"]),
     _templateObject4 = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n  justify-content: center;\n  padding-top: 3rem;\n  padding-bottom: 2rem;\n"], ["\n  display: flex;\n  justify-content: center;\n  padding-top: 3rem;\n  padding-bottom: 2rem;\n"]),
-    _templateObject5 = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n  flex-wrap: wrap;\n"], ["\n  display: flex;\n  flex-wrap: wrap;\n"]),
-    _templateObject6 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 6rem;\n  padding: 1rem;\n"], ["\n  font-size: 6rem;\n  padding: 1rem;\n"]);
+    _templateObject5 = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n"], ["\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n"]),
+    _templateObject6 = (0, _taggedTemplateLiteral3.default)(["\n  font-size: 6rem;\n  padding: 1rem 3rem;\n\n  @media (max-width: 600px) {\n    padding: 1rem;\n  }\n"], ["\n  font-size: 6rem;\n  padding: 1rem 3rem;\n\n  @media (max-width: 600px) {\n    padding: 1rem;\n  }\n"]);
 
 exports.default = function () {
   return _react2.default.createElement(_reactScroll.Element, { id: "about", __source: {
@@ -44,7 +44,7 @@ exports.default = function () {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "I'm Michael Simmelbauer, a Fullstack Developer living in Munich, Germany. With passion for development. In 2016 I decided to learn Development, since then I have been developing Web Apps.", _react2.default.createElement("br", {
+  }, "I'm Michael Simmelbauer, a Frontend Developer living in Munich, Germany. With passion for development. In 2016 I decided to learn Development, since then I have been developing Web Apps.", _react2.default.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9

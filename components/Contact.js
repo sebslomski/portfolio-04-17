@@ -17,11 +17,12 @@ export default class extends React.Component {
   };
   handleSubmit = e => {
     e.preventDefault();
-    console.log(this.state);
-    axios
-      .post("https://simmco-email.now.sh", this.state)
-      .then(res => console.log(res))
-      .catch(err => console.log(err));
+    if (this.state.message !== "") {
+      axios
+        .post("https://simmco-email.now.sh", this.state)
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
+    }
   };
   render() {
     return (
@@ -67,12 +68,12 @@ export default class extends React.Component {
               </InputGroup>
               <Button type="submit">Send</Button>
             </Form>
+            <Icons>
+              <img src="static/github.svg" />
+              <img src="static/linkedin.svg" />
+              <img src="static/twitter.svg" />
+            </Icons>
           </EmailWrap>
-          <Icons>
-            <img src="static/github.svg" />
-            <img src="static/linkedin.svg" />
-            <img src="static/twitter.svg" />
-          </Icons>
         </Wrapper>
       </Element>
     );
@@ -95,7 +96,6 @@ const Title = styled.h2`
 
 const EmailWrap = styled.div`
     margin: 0 auto;
-    height: 600px;
 `;
 
 const Form = styled.form`
@@ -103,6 +103,7 @@ const Form = styled.form`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 `;
 
 const InputGroup = styled.div`
@@ -127,6 +128,9 @@ const InputField = styled.input`
     font-family: inherit;
     width: 25rem;
     height: ${props => (props.primary ? "15rem" : "auto")};
+    @media(max-width: 880px) {
+      width:  100%;
+    }
 `;
 
 const Button = styled.button`
@@ -144,6 +148,9 @@ const Icons = styled.div`
   margin-top: 2rem;
   display: flex;
   justify-content: center;
-  max-height: 3.5rem;
-`;
+  max-height: 3rem;
 
+  @media(max-width: 880px) {
+      height: 2rem;
+    }
+`;

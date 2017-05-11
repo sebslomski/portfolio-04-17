@@ -8,7 +8,7 @@ export default ({ children }) => (
     </div>
      <style jsx>{`
       .main {
-        margin: auto;
+        margin: 0 auto;
         padding: 0 0 0 0;
       }
       .page {
@@ -19,7 +19,7 @@ export default ({ children }) => (
       }
       @media (max-width: 750px) {
         .main {
-          padding: 0;
+          padding: 0 20px;
           width: auto;
         }
       }
