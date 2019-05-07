@@ -58,9 +58,7 @@ export default class extends React.Component {
               </InputGroup>
               <InputGroup>
                 <InputTitle>message</InputTitle>
-                <InputField
-                  primary
-                  type="textfield"
+                <TextField
                   name="message"
                   onChange={this.handleChange}
                   value={this.state.message}
@@ -128,6 +126,18 @@ const InputField = styled.input`
     font-family: inherit;
     width: 25rem;
     height: ${props => (props.primary ? "15rem" : "auto")};
+    @media(max-width: 880px) {
+      width:  100%;
+    }
+`;
+
+const TextField = styled.textarea`
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #ccc;
+    font-size: 1.75rem;
+    font-family: inherit;
+    width: 25rem;
     @media(max-width: 880px) {
       width:  100%;
     }
